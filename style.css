@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/img/1338843.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.671);
+    backdrop-filter: blur(0.6rem);
+    text-align: center;
+    padding: 1rem 0;
+    max-height: 90px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0;
+    display: inline;
+    margin-right: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 30px;
+}
+nav ul li a:hover{
+    font-size: 1.5rem;
+    color: rgba(0, 62, 177, 0.87);
+}
+.destacado a{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.destacado a:hover{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 25px var(--clr);
+    color: black;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.destacado {
+    background-color: #f9f9f96c;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(0.4rem);
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.programacion {
+    margin-top: 2rem;
+    color:white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
